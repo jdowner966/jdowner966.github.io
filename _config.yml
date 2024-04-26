@@ -38,9 +38,13 @@ exclude:
   - twbsconfig.yml
 
 plugins:
-  - jekyll-redirect-from
+  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-toc
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-example
 
 # Social
 title:              Bootstrap
